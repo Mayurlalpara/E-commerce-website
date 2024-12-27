@@ -1,0 +1,31 @@
+.userli{
+    background: linear-gradient(180deg,#ebecee,#4b4d4c22 );
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #383737;
+    overflow :auto;
+    border-radius: 6px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5), 0 10px 15px rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    height: 120vh;
+}
+.uth{
+    padding: 10px;
+    font-size: 20px;
+}
+.uthd{
+    padding: 15px;
+    padding-left: 117px;
+    padding-right: 117px;
+    overflow :auto;
+
+}
+h1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.utb{
+    margin: 10px;
+}

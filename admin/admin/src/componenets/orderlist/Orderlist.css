@@ -1,0 +1,71 @@
+/* OrderList.css */
+
+.order-list {
+    padding: 10px;
+    overflow :auto;
+    width: auto;
+    height: 127vh;
+}
+
+.order-table {
+    margin-top: 20px;
+    width: auto;
+    border-collapse: collapse;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5), 0 10px 15px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.order-table-header, .order-table-row {
+    display: grid;
+    grid-template-columns: 3.5fr 2fr 2fr 1.5fr 5fr;
+    padding: 5px;
+}
+
+.order-table-header {
+    font-weight: bold;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #3d3b3b;
+}
+
+.order-table-row {
+    grid-template-columns: 3.4fr 2.9fr 1.7fr 1.2fr 5fr;
+    border: 1px solid rgb(95, 93, 93);
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.order-items {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.item-header {
+    display: grid;
+    grid-template-columns: 3fr 3.5fr 1.3fr 2.4fr 1.3fr;
+   padding: 2px 0;
+   color: #3d3b3b;
+}
+
+
+.order-item {
+    display: grid;
+    grid-template-columns: 2.4fr 4fr 1.2fr 1.3fr 1fr ;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #a9a8a8;
+    border-radius: 5px;
+
+}
+
+.order-item-image {
+    max-width: 90px;
+    height: 90px;
+    object-fit: cover;
+
+}
+
+.error {
+    color: red;
+}
+

@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #0000;
+    background: white;
+    height: 90px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-Profile{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.navbar title{
+    margin: 0;
+    padding: 0;
+}
+.navbar h5{
+    color: red;
+}
+@media(max-width:800px){
+    .navbar{
+        padding:  15px 30px;
+    }
+    .logo{
+        width:150px;
+    }
+    .nav-Profile{
+        width: 60px;
+    }
+}

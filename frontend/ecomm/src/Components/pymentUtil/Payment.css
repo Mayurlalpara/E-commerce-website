@@ -1,0 +1,54 @@
+.paycon{
+    padding-top: 0px;
+    width: 100%;
+    height: 110vh;
+    background: #fce3fe;
+    display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  gap: 20px; 
+}
+.inp {
+    width: 570px;
+    height: 590px;
+    background: white;
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.inp h2{
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+
+.field{
+    display:flex;
+    flex-direction: column;
+}
+.field input{
+    height: 55px;
+    width: 540px;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.inp button{
+    width: 570px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.inp {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+ 

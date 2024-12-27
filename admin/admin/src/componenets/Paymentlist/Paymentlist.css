@@ -1,0 +1,25 @@
+.payli{
+    background: linear-gradient(180deg,#ebecee,#4b4d4c22 );
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #2f2d2d;
+    overflow :auto;
+    border-radius: 6px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5), 0 10px 15px rgba(0, 0, 0, 0.5);
+    height: 120vh;
+}
+
+.ptb{
+    margin: 10px ;
+
+}
+.ptr th{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ptd{
+    padding: 15px;
+    padding-left: 62px;
+    padding-right: 62px;
+}
